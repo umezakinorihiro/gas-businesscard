@@ -30,9 +30,9 @@ Google Apps Script（GAS）で、名刺画像（jpg/png）から情報を抽出�
 ---
 
 ## Setup
-
 ## 1) clasp
-```bash
+
+bash
 npm i -g @google/clasp
 clasp login
 
@@ -43,7 +43,7 @@ https://script.google.com/home/usersettings
 ## 3) 既存GASをclone
 Apps Scriptエディタ → **プロジェクト設定** → **スクリプトID** をコピーして実行：
 
-```bash
+bash
 clasp clone <SCRIPT_ID>
 
 ## Script Properties（重要）
